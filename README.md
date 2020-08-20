@@ -31,4 +31,4 @@ GET /randomizer/address
 | Address.country*     |  String        | United States of America  |
 | Address.countryCode  |  String        | USA                       |
 
-- *Optional
+*Optional
