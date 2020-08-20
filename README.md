@@ -18,15 +18,17 @@ Random Address Generator allows to generate a random address.
 GET /randomizer/address
 
 ### Response Reference
-| Parameter           |      Type      |  Example                  |
-|---------------------|:--------------:|---------------------------|
-| Address             |  Object        | See child attributes      |
-| Address.house       |  String        | 432                       |
-| Address.street      |  String        | Hamilton St., Apt 87      |
-| Address.postalCode  |  String        | 74321                     |
-| Address.city        |  String        | San Diego                 |
-| Address.county      |  String        | Hartford                  |
-| Address.state       |  String        | Kentucky                  |
-| Address.stateCode   |  String        | KY                        |
-| Address.country     |  String        | United States of America  |
-| Address.countryCode |  String        | USA                       |
+| Parameter            |      Type      |  Example                  |
+|----------------------|:--------------:|---------------------------|
+| Address              |  Object        | See child attributes      |
+| Address.house        |  String        | 432                       |
+| Address.street       |  String        | Hamilton St., Apt 87      |
+| Address.postalCode   |  String        | 74321                     |
+| Address.city         |  String        | San Diego                 |
+| Address.county       |  String        | Hartford                  |
+| Address.state*       |  String        | Kentucky                  |
+| Address.stateCode*   |  String        | KY                        |
+| Address.country*     |  String        | United States of America  |
+| Address.countryCode  |  String        | USA                       |
+
+- *Optional
