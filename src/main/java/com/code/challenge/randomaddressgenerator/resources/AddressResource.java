@@ -20,12 +20,5 @@ public class AddressResource {
 		return ResponseEntity.ok().body(address);
 		
 	}
-
-//	public ResponseEntity<Student> findById(@PathVariable("id") Integer studentId){
-//		Student student = studentRepository.findById(studentId).orElseThrow(
-//				() -> new ResourceNotFoundException("Student not found..." + studentId));
-//		
-//		return ResponseEntity.ok().body(student);
-//	}
-	
+		
 }
